@@ -1,4 +1,5 @@
 var when = require('when')
+var request = require('request')
 
 module.exports = {
 	"/v1/functions/swapnil": {
