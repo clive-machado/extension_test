@@ -1,10 +1,10 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blt21c702c3fdc6f721')
-.setHost("stag-api.built.io")
+var app = Built.App('bltb62a403faff09784')
+.setHost("dev-api.built.io")
 .setProtocol("https")
-.setMasterKey('bltf35c4c90e33c52c4')
+.setMasterKey('blta0f3474316380510')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'cliveblt_sec',
